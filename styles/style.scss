@@ -34,8 +34,8 @@ body {
     background-color: $dark-cyan;
     font-size: 2rem;
     background-image: 
-    url('/images/bg-pattern-top.svg'),
-    url('/images/bg-pattern-bottom.svg');
+    url('./images/bg-pattern-top.svg'),
+    url('./images/bg-pattern-bottom.svg');
     background-position: left top ,right bottom;
     background-size: 50em;
     background-position-x: -20em, 40em;
