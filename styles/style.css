@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: hsl(185deg, 75%, 39%);
+  font-size: 2rem;
+  background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
+  background-position: left top, right bottom;
+  background-size: 50em;
+  background-position-x: -20em, 40em;
+  background-position-y: -20em, 15em;
+  background-repeat: no-repeat;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 1.3em;
+}
+.card .banner img {
+  border-top-left-radius: 1.3em;
+  border-top-right-radius: 1.3em;
+}
+.card .profile-pic {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+.card .profile-pic img {
+  margin-top: -2.2em;
+  border: 3px solid #fff;
+  border-radius: 50em;
+}
+.card .profile-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5em;
+  gap: 0.5em;
+  color: hsl(229deg, 23%, 23%);
+}
+.card .profile-content .name {
+  font-weight: 700;
+}
+.card .country {
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+  text-align: center;
+}
+.card .socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 1.8em;
+  color: hsl(229deg, 23%, 23%);
+  font-size: 1.5rem;
+}
+.card .socials .count {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 375px) {
+  body {
+    background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
+    background-position: left top, right bottom;
+    background-size: 13em;
+    background-position-x: -5em, 10em;
+    background-repeat: no-repeat;
+  }
+}/*# sourceMappingURL=style.css.map */
